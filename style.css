@@ -15,23 +15,24 @@ body {
   }
 
 #tamagotchiImg {
-    width: 200px; /* Ajusta el tamaño de la imagen del Tamagotchi */
-    height: 200px; /* Ajusta el tamaño de la imagen del Tamagotchi */
-    margin-bottom: 20px; /* Espacio entre la imagen y el mensaje */
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
     animation: bounce 0.6s ease infinite;
   }
 
 #mensaje {
-    margin-bottom: 20px; /* Espacio entre el mensaje y el contador */
+    margin-bottom: 20px;
   }
 
 #contador {
-    font-size: 24px; /* Ajusta el tamaño del contador */
-    border: 2px solid #333; /* Agrega un borde al contador */
-    padding: 10px; /* Espacio interior del contador */
-    border-radius: 5px; /* Redondea las esquinas del contador */
+    font-size: 24px;
+    border: 2px solid #333;
+    padding: 10px;
+    border-radius: 5px;
   }
 
+/* Animacion bounce: */
 @keyframes bounce {
     0%, 100% {
       transform: translateY(0);

@@ -74,7 +74,7 @@ function iniciarContador() {
     valorContador.textContent = contador;
   }
 
-// Ciclo para actualizar los stats cada 0.8 segundos
+// Ciclo para actualizar los stats cada 5 segundos
 setInterval(() => {
   hambre += Math.floor(Math.random() * 3) + 1;
   sueno += Math.floor(Math.random() * 2) + 1;
